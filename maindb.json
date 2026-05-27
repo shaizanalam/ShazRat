@@ -2,8 +2,14 @@
   "admin": {
     "username": "shaizan",
     "password": "0192023a7bbd73250516f069df18b500",
-    "loginToken": "9421018d56afbff1b46b2dd019abcaff",
-    "logs": [],
+    "loginToken": "8c94de10209f0ea10492d3d8b8001025",
+    "logs": [
+      {
+        "time": "2026-05-27T06:42:07.254Z",
+        "type": "SUCCESS",
+        "message": "Build Succeded!"
+      }
+    ],
     "ipLog": []
   },
   "clients": []
