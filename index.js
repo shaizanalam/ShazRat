@@ -24,9 +24,9 @@ global.clientManager = clientManager;
 global.apkBuilder = apkBuilder;
 
 // spin up socket server
-let client_io = IO.listen(CONST.control_port);
+let client_io = IO(CONST.control_port);
 
-client_io.sockets.pingInterval = 30000;
+client_io.engine.pingInterval = 30000;
 client_io.on('connection', (socket) => {
     socket.emit('welcome');
     let clientParams = socket.handshake.query;

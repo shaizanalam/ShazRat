@@ -52,6 +52,7 @@ A cloud based remote android managment suite, powered by NodeJS
  - A Server
 
 ## Installation 
+See the quick deployment guide: [Deploying L3MON — Quick Start](DEPLOY.md)
 1. Install JRE 8 (We cannot stress this enough USE java 1.8.0 ANY issues that dont use this will be closed WITHOUT a response)
     - Debian, Ubuntu, Etc
      - Ubuntu chroot

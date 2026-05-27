@@ -3,7 +3,7 @@ const path = require('path');
 exports.debug = false;
 
 exports.web_port = 22533;
-exports.control_port = 22222;
+exports.control_port = 22223;
 
 // Paths
 exports.apkBuildPath = path.join(__dirname, '../assets/webpublic/build.apk')
